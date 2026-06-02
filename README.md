@@ -1,13 +1,13 @@
 # Fitcap
 
 <div align="center">
-  <img src="assets/logo.png" alt="Fitcap Logo" width="150" style="border-radius: 20px;">
+  <h1>👑</h1>
   <br/>
   <h3>Your intelligent fitness and calorie prediction engine.</h3>
   <p><b>Live Now: <a href="https://burnitdown.streamlit.app/">burnitdown.streamlit.app</a></b></p>
 </div>
 
-![Fitcap Dashboard](assets/screenshot.png)
+
 
 ---
 
