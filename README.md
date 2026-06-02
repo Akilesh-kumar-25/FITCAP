@@ -1,8 +1,6 @@
 # Fitcap
 
 <div align="center">
-  <h1>👑</h1>
-  <h2>Fitcap</h2>
   <h3>Your intelligent fitness and calorie prediction engine.</h3>
   <br/>
   <a href="https://burnitdown.streamlit.app/" target="_blank">
