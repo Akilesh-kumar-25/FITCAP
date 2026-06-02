@@ -4,10 +4,11 @@
   <img src="assets/logo.png" alt="Fitcap Logo" width="150" style="border-radius: 20px;">
   <br/>
   <h3>Your intelligent fitness and calorie prediction engine.</h3>
-  <p><b>Live Now: <a href="https://burnitdown.netlify.app">burnitdown.netlify.app</a></b></p>
+  <p><b>Live Now: <a href="https://burnitdown.streamlit.app/">burnitdown.streamlit.app</a></b></p>
 </div>
 
-![Fitcap Dashboard Mockup](assets/mockup.png)
+<!-- Add a real screenshot of your app here and name it assets/screenshot.png -->
+![Fitcap Dashboard](assets/screenshot.png)
 
 ---
 
@@ -16,7 +17,7 @@
 Fitcap is a premium, modern fitness dashboard built with Streamlit and Flask. It uses a custom-trained machine learning model to predict calories burned during activities based on metrics like heart rate, body temperature, duration, and personal demographics. 
 
 > [!TIP]
-> **Data-Driven Insights:** Our powerful predictive model was trained on a robust dataset of over **15,000** activity records, ensuring accurate and personalized calorie burn predictions.
+> **Data-Driven Insights:** My powerful predictive model was trained on a robust dataset of over **15,000** activity records, ensuring accurate and personalized calorie burn predictions.
 
 ---
 
@@ -59,7 +60,7 @@ If you want to run Fitcap locally, follow these steps:
 > [!IMPORTANT]
 > Because Fitcap runs a **Streamlit frontend** and a **Flask backend API**, it cannot be fully hosted as a static site on Netlify. 
 
-For the full application to work, we recommend hosting it on a Python-compatible platform:
+For the full application to work, I recommend hosting it on a Python-compatible platform:
 - [Render](https://render.com/) (Recommended)
 - [Streamlit Community Cloud](https://streamlit.io/cloud)
 - [Heroku](https://heroku.com/)
@@ -73,4 +74,4 @@ For the full application to work, we recommend hosting it on a Python-compatible
 
 ## 🧠 Model Training
 
-The `train.py` script contains our complete training pipeline. We used a `LinearRegression` model augmented with `KNNImputer` to handle any missing tracking data. It leverages a dataset of **15,000** fitness records to achieve high-accuracy R² scores. 
+The `train.py` script contains my complete training pipeline. I used a `LinearRegression` model augmented with `KNNImputer` to handle any missing tracking data. It leverages a dataset of **15,000** fitness records to achieve high-accuracy R² scores. 
