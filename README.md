@@ -2,11 +2,18 @@
 
 <div align="center">
   <h1>👑</h1>
-  <br/>
+  <h2>Fitcap</h2>
   <h3>Your intelligent fitness and calorie prediction engine.</h3>
-  <p><b>Live Now: <a href="https://burnitdown.streamlit.app/">burnitdown.streamlit.app</a></b></p>
+  <br/>
+  <a href="https://burnitdown.streamlit.app/" target="_blank">
+    <img src="https://img.shields.io/badge/🚀%20Live%20App-burnitdown.streamlit.app-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" alt="Live App"/>
+  </a>
+  <br/><br/>
+  <img src="https://img.shields.io/badge/Python-3.9+-3776AB?style=flat-square&logo=python&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Streamlit-1.x-FF4B4B?style=flat-square&logo=streamlit&logoColor=white"/>
+  <img src="https://img.shields.io/badge/ML-LinearRegression-22c55e?style=flat-square&logo=scikit-learn&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Dataset-15%2C000%20Records-f59e0b?style=flat-square"/>
 </div>
-
 
 
 ---
