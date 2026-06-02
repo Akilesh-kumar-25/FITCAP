@@ -7,7 +7,6 @@
   <p><b>Live Now: <a href="https://burnitdown.streamlit.app/">burnitdown.streamlit.app</a></b></p>
 </div>
 
-<!-- Add a real screenshot of your app here and name it assets/screenshot.png -->
 ![Fitcap Dashboard](assets/screenshot.png)
 
 ---

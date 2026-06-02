@@ -17,6 +17,12 @@ try:
 except Exception:
     bg_data_uri = ""
 
+try:
+    with open("assets/logo.png", "rb") as _f:
+        logo_data_uri = "data:image/png;base64," + base64.b64encode(_f.read()).decode('utf-8')
+except Exception:
+    logo_data_uri = ""
+
 st.set_page_config(page_title="Fitcap", layout="wide", initial_sidebar_state="collapsed")
 
 @st.cache_resource
@@ -601,7 +607,7 @@ body:not(.light-mode) #toast { background:#fff; color:#000; }
       <!-- LEFT: Form -->
       <div class="input-panel">
         <div class="brand">
-          <h1>Fit<span>cap</span></h1>
+          <h1 style="display:flex; align-items:center; gap:10px;"><img src="__LOGO_DATA_URI__" height="40" style="border-radius:8px;">Fit<span>cap</span></h1>
           <p id="dashGreeting">Welcome Back</p>
         </div>
         
@@ -1608,6 +1614,6 @@ updateDietPrefs();
 initApp();
 </script>
 </body>
-</html>'''.replace('__BG_DATA_URI__', bg_data_uri)
+</html>'''.replace('__BG_DATA_URI__', bg_data_uri).replace('__LOGO_DATA_URI__', logo_data_uri)
 
 st.components.v1.html(page, height=900, scrolling=True)
